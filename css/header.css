@@ -138,8 +138,8 @@ html {
   align-items: center;
   margin-right: 3%;
   justify-content: space-between;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 3.7rem;
 }
 .navbar .logo-container {
   width: 15%;
@@ -161,6 +161,11 @@ html {
 @media (max-width: 1190px) {
   .navbar .link {
     font-size: 0.9rem;
+  }
+}
+@media (max-width:950px) {
+  .navbar .link {
+    font-size: 0.8rem;
   }
 }
 .navbar .link ul {
@@ -192,6 +197,13 @@ html {
 .navbar .link a.donate:hover {
   border-color: #F2BACD;
 }
+@media (max-width:900px) {
+  .navbar .link a.donate {
+    border: none;
+    padding: 0;
+  }
+}
+/****smaller screens****/
 @media (max-width:900px) {
   .navbar {
     display: flex;
@@ -333,14 +345,15 @@ html {
   .navbar .nav .menu .link-container .link ul li:hover a {
     color: #96D3CD;
   }
-  .navbar .nav .menu .link-container .link ul li:hover .donate {
-    padding: 1rem;
-    border: none;
-  }
   .navbar .nav .menu .link-container .link ul li a {
     color: inherit;
     text-decoration: none;
     transition: color 0.4s ease;
+  }
+}
+@media (max-width:900px) and (max-width:800px) {
+  .navbar .nav .menu {
+    width: 50%;
   }
 }
 .header-img {
@@ -353,14 +366,15 @@ html {
 .header-img h1 {
   z-index: 1;
   position: absolute;
-  top: 55%;
+  top: 45%;
   left: 0;
   right: 0;
   text-align: center;
   color: white;
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  letter-spacing: 0.4rem;
 }
 @media (max-width:900px) {
   .header-img h1 {
