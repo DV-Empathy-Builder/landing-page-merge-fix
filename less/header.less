@@ -1,0 +1,41 @@
+@import './variables';
+
+header .navigation {
+  display: flex;
+  align-items: center;
+  margin-right: 3%;
+  justify-content: space-between;
+  padding-top: 38px;
+  padding-bottom: 95px;
+  .logo-container {
+    width: 15%;
+    height: 40%;
+    img {
+      width: 100%;
+    }
+  }
+
+  .links {
+    width: 75%;
+    font-size: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+      text-decoration: none;
+      color: @nav-text;
+      font-family: @nav-font;
+      font-weight: bold;
+      margin-left: 31px;
+      &:hover {
+        color: @active-text;
+      }
+    }
+
+    a.donate {
+      border-radius: 35px;
+      border: 2px solid @nav-text;
+      padding: 20px 40px;
+    }
+  } 
+}

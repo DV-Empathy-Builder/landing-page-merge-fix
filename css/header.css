@@ -1,0 +1,37 @@
+header .navigation {
+  display: flex;
+  align-items: center;
+  margin-right: 3%;
+  justify-content: space-between;
+  padding-top: 38px;
+  padding-bottom: 95px;
+}
+header .navigation .logo-container {
+  width: 15%;
+  height: 40%;
+}
+header .navigation .logo-container img {
+  width: 100%;
+}
+header .navigation .links {
+  width: 75%;
+  font-size: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .navigation .links a {
+  text-decoration: none;
+  color: #96D3CD;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-left: 31px;
+}
+header .navigation .links a:hover {
+  color: #F2BACD;
+}
+header .navigation .links a.donate {
+  border-radius: 35px;
+  border: 2px solid #96D3CD;
+  padding: 20px 40px;
+}
