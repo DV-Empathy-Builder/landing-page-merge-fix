@@ -1,50 +1,251 @@
 @import './index';
     
-    .navigation{
-        display:flex; 
-        align-items:center; 
-        margin-right:3%; 
-        justify-content:space-between; 
-        padding-top:38px; 
-        padding-bottom:95px; 
-        .logo-container{
-          width:15%; 
-          height: 40%;
-            img{
-                width:100%; 
-            }
-        }
-            
-                .links{   
-                    width:75%;
-                    font-size: 4.5rem; 
-                    display:flex; 
-                    align-items:center; 
-                    justify-content:space-between; 
-                    a{
-                        text-decoration: none; 
-                        color:@nav-text; 
-                        font-family: @nav-font; 
-                        font-weight: bold; 
-                        margin-left:31px; 
-                        &:hover{
-                        color:@active-text; 
-                        }
-                    }
-    
-                    a.donate{
-                        border-radius: 35px; 
-                        border: 2px solid @nav-text; 
-                        padding: 20px 40px;
-                    }
-    
-                    
-    
-                
-    
-                
-            }
-        
-    
-    
+.mainpara {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    padding: 3% 0;
+    .rectangles {
+      display: flex;
+      justify-content: center;
+      padding: 3% 0;
+      .rectangle1 {
+        height: 2.1rem;
+        width: 30%;
+        background-color: @salmon;
+      }
     }
+    .rectangle2 {
+      height: 2.1rem;
+      width: 30%;
+      background-color: @light-pink;
+    }
+    .rectangle3 {
+      height: 2.1rem;
+      width: 30%;
+      background-color: @teal;
+    }
+
+  h2{
+    .maintext();
+    padding: 3% 0 3% 0;
+    font-size: 2.1rem;
+    
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+    padding: 0 0 3% 0;
+  }
+}
+  .mainform {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 2% 0 0 0;
+    .main {
+      margin-right: 10%;
+      h3 {
+        width: 150%;
+        .maintext2();
+        color: @dark-gray;
+        padding: 0 0 5% 0;
+      } //closes h3 main
+      h5 {
+        .maintext();
+        font-weight: lighter;
+        color: @dark-gray;
+        padding: 5% 0 2% 0;
+      } //closes h5 main
+      .maincosts {
+        display: flex;
+        flex-flow: column;
+        padding: 5% 0 0 0;
+        .merriweather();
+        .textbox {
+          margin-bottom: 3%;
+          margin-top: 2%;
+          background-color: #fafafa;
+          border-radius: 2px;
+          border: 1px solid @border-color;
+          box-sizing: border-box;
+          height: 2.5rem;
+          width: 14.4rem;
+          font-size: 1rem;
+          .merriweather();
+        }
+      } //closes maincosts
+    } //closes main
+  
+    .main2 {
+      margin-right: 5%;
+      h3 {
+        .maintext2();
+        width: 200%;
+        padding: 0 0 5% 0;
+      } //closes h3 main
+      h5 {
+        .maintext();
+        font-weight: lighter;
+        padding: 5% 0 2% 0;
+      } //closes h5 main
+      .maincosts2 {
+        display: flex;
+        flex-flow: column;
+        padding: 8% 0 0 0;
+        .merriweather();
+        .textbox {
+          margin-bottom: 5%;
+          margin-top: 3%;
+          background-color: #fafafa;
+          border-radius: 2px;
+          border: 1px solid @border-color;
+          height: 2.5rem;
+          width: 14.4rem;
+          font-size: 1rem;
+          box-sizing: border-box;
+          .merriweather();
+        }
+      } //closes maincosts
+    } //closes main
+  } //closes mainform
+  a{
+    text-decoration: none;
+  }
+  .btn {
+    margin-left: 35%;
+    box-sizing: border-box;
+    height: 70px;
+    width: 419px;
+    border: 2px solid @button-hover;
+    border-radius: 32px;
+    background-color: #ffffff;
+    .maintext();
+    font-size: 1.3rem;
+    color: @button-hover;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  
+  .btn:hover {
+   margin-left: 35%;
+    box-sizing: border-box;
+    height: 70px;
+    width: 419px;
+    border: 2px solid @button-color;
+    border-radius: 32px;
+    background-color: @button-color;
+    .maintext();
+    font-size: 1.3rem;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  
+  .btn1 {
+    visibility: hidden;
+    display: none;
+   }
+  
+  @media screen and (max-width: 800px) {
+    .mainpara {
+      width: 90%;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      .rectangles {
+        width: 100%;
+      }
+    }
+    .mainform {
+      width: 60%;
+      display: flex;
+      flex-wrap: nowrap;
+      .main {
+        margin-left: 40%;
+      }
+    
+    .main2 {
+      width: 60%;
+      .maincosts2 {
+        margin-left: 35%;
+        }
+        h3, h5 {
+          margin-left: 35%;
+          width: 100%;
+      }
+    }
+  }
+  .btn{
+  margin-left: 18%;
+  }
+  .btn:hover {
+    margin-left: 18%;
+  }
+  .btn1 {
+    visibility: hidden;
+    display: none;
+   }
+  }
+  @media screen and (max-width:400px){
+    .mainpara{
+      margin-left:7%;
+      .rectangles{
+        width: 100%;
+        .rectangle1 {
+          height: 1.3rem;
+        }
+      }
+      .rectangle2 {
+        height: 1.3rem;
+      }
+      .rectangle3 {
+        height: 1.3rem;
+  
+      }
+      }
+    
+    .mainform{
+      width: 35%;
+      display: flex;
+      flex-wrap: wrap;
+      .main{
+        margin-left: 200%;
+      }
+      .main2{
+        visibility: hidden;
+        display: none;
+      }
+    }
+    .btn {
+      visibility: hidden;
+      display: none;
+    }
+    .btn:hover {
+      visibility: hidden;
+      display: none;
+    }
+    .btn1 {
+      display: flex;
+      justify-content: center;
+      visibility: visible;
+      box-sizing: border-box;
+      height: 70px;
+      width: 300px;
+      border: 2px solid @button-color;
+      border-radius: 32px;
+      background-color: #ffffff;
+      .maintext();
+      font-size: 1.3rem;
+      color: @button-color;
+      font-weight: bold;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      margin-left: 9%;
+    }
+  }

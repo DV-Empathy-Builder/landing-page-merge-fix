@@ -1,18 +1,18 @@
 .maintext {
   font-family: 'roboto', sans-serif;
   font-weight: normal;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   letter-spacing: 2px;
 }
 .maintext2 {
   font-family: 'roboto', sans-serif;
   font-weight: 500;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
 }
 .merriweather {
   font-family: 'Merriweather', serif;
   letter-spacing: 1.52px;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -151,7 +151,7 @@ table {
   .main2 h3 {
     font-family: 'roboto', sans-serif;
     font-weight: 500;
-    word-spacing: 0.2rem;
+    word-spacing: .2rem;
     width: 200%;
     margin-left: 25%;
     text-align: center;
@@ -160,7 +160,7 @@ table {
   .main2 h5 {
     font-family: 'roboto', sans-serif;
     font-weight: normal;
-    word-spacing: 0.2rem;
+    word-spacing: .2rem;
     letter-spacing: 2px;
     font-weight: lighter;
     margin-left: 25%;
@@ -173,7 +173,7 @@ table {
     margin-left: 25%;
     font-family: 'Merriweather', serif;
     letter-spacing: 1.52px;
-    font-size: 0.8rem;
+    font-size: .8rem;
   }
   .main2 .maincosts2 .textbox {
     margin-bottom: 5%;
@@ -187,7 +187,7 @@ table {
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
     letter-spacing: 1.52px;
-    font-size: 0.8rem;
+    font-size: .8rem;
   }
   a {
     text-decoration: none;
@@ -203,7 +203,7 @@ table {
     background-color: #ffffff;
     font-family: 'roboto', sans-serif;
     font-weight: normal;
-    word-spacing: 0.2rem;
+    word-spacing: .2rem;
     letter-spacing: 2px;
     font-size: 1.3rem;
     color: #E1F9F6;
@@ -222,7 +222,7 @@ table {
     background-color: #96D3CD;
     font-family: 'roboto', sans-serif;
     font-weight: normal;
-    word-spacing: 0.2rem;
+    word-spacing: .2rem;
     letter-spacing: 2px;
     font-size: 1.3rem;
     color: #000000;

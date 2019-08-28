@@ -1,0 +1,15 @@
+.maintext {
+  font-family: 'roboto', sans-serif;
+  font-weight: normal;
+  word-spacing: .2rem;
+  letter-spacing: 2px;
+}
+.maintext2 {
+  font-family: 'roboto', sans-serif;
+  font-weight: 500;
+  word-spacing: .2rem;
+}
+.merriweather {
+  font-family: 'Merriweather', serif;
+  letter-spacing: 1.52px;
+}
