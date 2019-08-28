@@ -1,5 +1,5 @@
 @import './index';
-    
+
 .mainpara {
     display: flex;
     flex-flow: column wrap;
@@ -40,9 +40,9 @@
     padding: 0 0 3% 0;
   }
 }
+
   .mainform {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     padding: 2% 0 0 0;
@@ -120,6 +120,7 @@
   a{
     text-decoration: none;
   }
+//closes mary
   .btn {
     margin-left: 35%;
     box-sizing: border-box;
@@ -159,6 +160,9 @@
   
   @media screen and (max-width: 800px) {
     .mary{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     .mainpara {
       width: 50%;
       display: flex;
@@ -167,11 +171,17 @@
       .rectangles {
         width: 100%;
       }
+      .para{
+        width: 140%;
     }
     .mainform {
       width: 60%;
       display: flex;
       flex-wrap: nowrap;
+      justify-content: center;
+      width: 100%;
+    padding: 2% 0 0 0;
+    margin-left: 15%;
       .main {
         margin-left: 40%;
       }
@@ -189,7 +199,7 @@
   }
 }
   .btn{
-  margin-left: 18%;
+  margin-left: 10%;
   }
   .btn:hover {
     margin-left: 18%;
@@ -199,7 +209,8 @@
     display: none;
    }
   }
-  @media screen and (max-width:400px){
+}
+  @media screen and (max-width:500px){
     .mainpara{
       margin-left:7%;
       .rectangles{
