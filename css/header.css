@@ -126,7 +126,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-header .navigation {
+header .navbar {
   display: flex;
   align-items: center;
   margin-right: 3%;
@@ -134,17 +134,17 @@ header .navigation {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-header .navigation .logo-container {
+header .navbar .logo-container {
   width: 15%;
   height: 40%;
 }
-header .navigation .logo-container img {
+header .navbar .logo-container img {
   width: 100%;
 }
-header .navigation .toggle {
+header .navbar .toggle {
   display: none;
 }
-header .navigation .link {
+header .navbar .link {
   width: 100%;
   font-size: 1.3rem;
   display: flex;
@@ -152,37 +152,37 @@ header .navigation .link {
   justify-content: space-between;
 }
 @media (max-width: 1190px) {
-  header .navigation .link {
+  header .navbar .link {
     font-size: 0.9rem;
   }
 }
-header .navigation .link ul {
+header .navbar .link ul {
   text-align: start;
   display: flex;
   list-style: none;
 }
-header .navigation .link a {
+header .navbar .link a {
   text-decoration: none;
   color: #96D3CD;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   margin-left: 2rem;
 }
-header .navigation .link a:hover {
+header .navbar .link a:hover {
   color: #F2BACD;
 }
-header .navigation .link a.current_page {
+header .navbar .link a.current_page {
   color: #F2BACD;
 }
-header .navigation .link a.current_page:hover {
+header .navbar .link a.current_page:hover {
   color: #96D3CD;
 }
-header .navigation .link a.donate {
+header .navbar .link a.donate {
   border-radius: 35px;
   border: 0.2rem solid #96D3CD;
   padding: 1rem 1.5rem;
 }
-header .navigation .link a.donate:hover {
+header .navbar .link a.donate:hover {
   border-color: #F2BACD;
 }
 /*******HAMBURGER ICON/MENU FOR SMALLER DEVICES**********/
