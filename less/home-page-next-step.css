@@ -12,7 +12,6 @@
 .merriweather {
   font-family: 'Merriweather', serif;
   letter-spacing: 1.52px;
-  font-size: .8rem;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -173,7 +172,6 @@ table {
     margin-left: 25%;
     font-family: 'Merriweather', serif;
     letter-spacing: 1.52px;
-    font-size: .8rem;
   }
   .main2 .maincosts2 .textbox {
     margin-bottom: 5%;
@@ -187,7 +185,6 @@ table {
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
     letter-spacing: 1.52px;
-    font-size: .8rem;
   }
   a {
     text-decoration: none;

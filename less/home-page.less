@@ -30,10 +30,10 @@
     .maintext();
     padding: 3% 0 3% 0;
     font-size: 2.1rem;
-    
   }
   h3 {
     font-size: 1.4rem;
+    line-height: 30px;
   }
   h4 {
     font-size: 1.2rem;
@@ -46,19 +46,22 @@
     justify-content: center;
     width: 100%;
     padding: 2% 0 0 0;
+    margin-right: 20%;
     .main {
-      margin-right: 10%;
+      margin-right: 25%;
       h3 {
         width: 150%;
         .maintext2();
         color: @dark-gray;
         padding: 0 0 5% 0;
+        font-size: 1.4rem;
       } //closes h3 main
       h5 {
         .maintext();
         font-weight: lighter;
         color: @dark-gray;
         padding: 5% 0 2% 0;
+        font-size: .8rem;
       } //closes h5 main
       .maincosts {
         display: flex;
@@ -81,16 +84,18 @@
     } //closes main
   
     .main2 {
-      margin-right: 5%;
+      
       h3 {
         .maintext2();
         width: 200%;
         padding: 0 0 5% 0;
+        font-size: 1.4rem;
       } //closes h3 main
       h5 {
         .maintext();
         font-weight: lighter;
         padding: 5% 0 2% 0;
+        font-size: .8rem;
       } //closes h5 main
       .maincosts2 {
         display: flex;
@@ -153,10 +158,11 @@
    }
   
   @media screen and (max-width: 800px) {
+    .mary{
     .mainpara {
-      width: 90%;
+      width: 50%;
       display: flex;
-      flex-flow: column wrap;
+      flex-flow: column;
       justify-content: center;
       .rectangles {
         width: 100%;
@@ -181,6 +187,7 @@
       }
     }
   }
+}
   .btn{
   margin-left: 18%;
   }
