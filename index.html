@@ -4,38 +4,58 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/home-page.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
 </head>
 
 <body>
     <!-- Umeko compiles to header.css less-watch-compiler less css header.less-->
     <header>
-            <div class="navigation">
-                   <div class="logo-container">
-                       <img src="img/logo.jpg">
-                   </div>
-                   
-                       <div class="links">
-                           <a class="home" href="#">HOME</a>
-                           <a class="calculator" href="#">CALCULATOR</a>
-                           <a class="our-work" href="#">OUR WORK</a>
-                           <a class="team" href="#">TEAM</a>
-                           <a class="sws" href="#">SURVIVOR WEALTH SUMMIT</a>
-                           <a class="shop" href="#">SHOP</a>
-                           <a class="get_comp" href="#">GET COMPENSATION</a>
-                           <a class="news" href="#">NEWS</a>
-                           <a class="contact" href="#">CONTACT US</a>
-                           <a class="donate" class="donate" href="#">DONATE</a>
-                       </div>
-                   
-               </div>
-               <div class="header-img">
-                   <img src="img/header-img.png">
-                   <p class="header-text">MONTHLY BUDGET AND RELOCATION CALCULATOR</p>
-               </div>
-           </header> 
+        <div class="navbar">
+            <!--logo-->
+            <div class="img-container">
+                <img src="img/logo-small.jpg" alt="logo">
+            </div>
+
+            <!--wrapper for nav-->
+            <div class="nav">
+                <!--checkbox to toggle hamburger icon-->
+                <input type="checkbox" class="toggle">
+                       
+                <!--hamburger icon-->
+                <div class="hamburger-container">
+                    <div class="hamburger"></div>
+                </div>
+                 
+                <div class="menu">
+                    <div class="link-container">
+                        <div class="link">
+                            <nav>
+                                <ul>
+                                    <li><a href="#">HOME</a></li>
+                                    <li><a class="current_page" href="#">CALCULATOR</a></li>
+                                    <li><a href="#">OUR WORK</a></li>
+                                    <li><a href="#">TEAM</a></li>
+                                    <li><a href="#">SURVIVOR WEALTH SUMMIT</a></li>
+                                    <li><a href="#">SHOP</a></li>
+                                    <li><a href="#">GET COMPENSATION</a></li>
+                                    <li><a href="#">NEWS</a></li>
+                                    <li><a href="#">CONTACT</a></li>
+                                    <li><a class="donate" href="#">DONATE</a></li>
+                                </ul>
+                            </nav>
+                        </div><!--link-->
+                    </div><!--link-container-->
+                </div><!--menu-->
+            </div><!--nav-->     
+        </div><!--navbar-->
+                 
+        <div class="header-img">
+            <img src="img/header-img.png">
+            <h1 class="header-text">MONTHLY BUDGET AND RELOCATION CALCULATOR</h1>
+        </div>
+    </header>  
     <!-- /Umeko -->
 
     <!-- Marry compiles to home-page.css  less-watch-compiler less css header.less-->
