@@ -50,24 +50,30 @@ html{
               }
               a.current_page{
                 color:@active-text; 
+        
                 &:hover{
                   color:@nav-text; 
                 }
               }
               a.donate{
-                  border-radius: 35px; 
-                  border: .2rem solid @nav-text; 
-                  padding: 1rem 1.5rem;
+                border-radius: 35px; 
+                border: .2rem solid @nav-text; 
+                padding: 1rem 1.5rem;
 
-                  &:hover{
-                    border-color:@active-text; 
-                  }
+                &:hover{
+                  border-color:@active-text; 
+                }  
+
+                @media @tablet{
+                  border:none; 
+                  padding:0; 
+                }
               }
       }
 
 }
 
-
+/****smaller screens****/
 @media @tablet{
 
   .navbar{
@@ -234,10 +240,7 @@ html{
                 color:@nav-text;
               }
 
-            .donate{
-                  padding:1rem;
-                  border:none;  
-                }  
+             
             }
 
             a{

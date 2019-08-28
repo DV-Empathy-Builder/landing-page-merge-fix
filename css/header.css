@@ -193,6 +193,13 @@ html {
   border-color: #F2BACD;
 }
 @media (max-width:900px) {
+  .navbar .link a.donate {
+    border: none;
+    padding: 0;
+  }
+}
+/****smaller screens****/
+@media (max-width:900px) {
   .navbar {
     display: flex;
     align-items: center;
@@ -332,10 +339,6 @@ html {
   }
   .navbar .nav .menu .link-container .link ul li:hover a {
     color: #96D3CD;
-  }
-  .navbar .nav .menu .link-container .link ul li:hover .donate {
-    padding: 1rem;
-    border: none;
   }
   .navbar .nav .menu .link-container .link ul li a {
     color: inherit;
