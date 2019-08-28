@@ -126,7 +126,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-header .navbar {
+html {
+  font-size: 62.5%;
+}
+/******navigation*******/
+.navbar {
   display: flex;
   align-items: center;
   margin-right: 3%;
@@ -134,17 +138,17 @@ header .navbar {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-header .navbar .logo-container {
+.navbar .logo-container {
   width: 15%;
   height: 40%;
 }
-header .navbar .logo-container img {
+.navbar .logo-container img {
   width: 100%;
 }
-header .navbar .toggle {
+.navbar .toggle {
   display: none;
 }
-header .navbar .link {
+.navbar .link {
   width: 100%;
   font-size: 1.3rem;
   display: flex;
@@ -152,40 +156,39 @@ header .navbar .link {
   justify-content: space-between;
 }
 @media (max-width: 1190px) {
-  header .navbar .link {
+  .navbar .link {
     font-size: 0.9rem;
   }
 }
-header .navbar .link ul {
+.navbar .link ul {
   text-align: start;
   display: flex;
   list-style: none;
 }
-header .navbar .link a {
+.navbar .link a {
   text-decoration: none;
   color: #96D3CD;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   margin-left: 2rem;
 }
-header .navbar .link a:hover {
+.navbar .link a:hover {
   color: #F2BACD;
 }
-header .navbar .link a.current_page {
+.navbar .link a.current_page {
   color: #F2BACD;
 }
-header .navbar .link a.current_page:hover {
+.navbar .link a.current_page:hover {
   color: #96D3CD;
 }
-header .navbar .link a.donate {
+.navbar .link a.donate {
   border-radius: 35px;
   border: 0.2rem solid #96D3CD;
   padding: 1rem 1.5rem;
 }
-header .navbar .link a.donate:hover {
+.navbar .link a.donate:hover {
   border-color: #F2BACD;
 }
-/*******HAMBURGER ICON/MENU FOR SMALLER DEVICES**********/
 @media (max-width:900px) {
   .navbar {
     display: flex;
@@ -347,7 +350,7 @@ header .navbar .link a.donate:hover {
 .header-img h1 {
   z-index: 1;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 0;
   right: 0;
   text-align: center;
@@ -364,7 +367,7 @@ header .navbar .link a.donate:hover {
 }
 @media (max-width:800px) {
   .header-img h1 {
-    top: 25%;
+    top: 40%;
     font-size: 3.1rem;
   }
 }
