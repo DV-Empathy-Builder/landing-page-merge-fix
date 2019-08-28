@@ -185,7 +185,6 @@ table {
 }
 .mainform {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
   padding: 2% 0 0 0;
@@ -314,6 +313,11 @@ a {
   display: none;
 }
 @media screen and (max-width: 800px) {
+  .mary {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
   .mary .mainpara {
     width: 50%;
     display: flex;
@@ -323,37 +327,44 @@ a {
   .mary .mainpara .rectangles {
     width: 100%;
   }
-  .mary .mainform {
+  .mary .mainpara .para {
+    width: 140%;
+  }
+  .mary .mainpara .mainform {
     width: 60%;
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    padding: 2% 0 0 0;
+    margin-left: 15%;
   }
-  .mary .mainform .main {
+  .mary .mainpara .mainform .main {
     margin-left: 40%;
   }
-  .mary .mainform .main2 {
+  .mary .mainpara .mainform .main2 {
     width: 60%;
   }
-  .mary .mainform .main2 .maincosts2 {
+  .mary .mainpara .mainform .main2 .maincosts2 {
     margin-left: 35%;
   }
-  .mary .mainform .main2 h3,
-  .mary .mainform .main2 h5 {
+  .mary .mainpara .mainform .main2 h3,
+  .mary .mainpara .mainform .main2 h5 {
     margin-left: 35%;
     width: 100%;
   }
-  .btn {
+  .mary .btn {
+    margin-left: 10%;
+  }
+  .mary .btn:hover {
     margin-left: 18%;
   }
-  .btn:hover {
-    margin-left: 18%;
-  }
-  .btn1 {
+  .mary .btn1 {
     visibility: hidden;
     display: none;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .mainpara {
     margin-left: 7%;
   }
