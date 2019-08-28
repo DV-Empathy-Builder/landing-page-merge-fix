@@ -138,8 +138,8 @@ html {
   align-items: center;
   margin-right: 3%;
   justify-content: space-between;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 3.7rem;
 }
 .navbar .logo-container {
   width: 15%;
@@ -161,6 +161,11 @@ html {
 @media (max-width: 1190px) {
   .navbar .link {
     font-size: 0.9rem;
+  }
+}
+@media (max-width:950px) {
+  .navbar .link {
+    font-size: 0.8rem;
   }
 }
 .navbar .link ul {
@@ -346,6 +351,11 @@ html {
     transition: color 0.4s ease;
   }
 }
+@media (max-width:900px) and (max-width:800px) {
+  .navbar .nav .menu {
+    width: 50%;
+  }
+}
 .header-img {
   position: relative;
   min-width: 100%;
@@ -356,14 +366,15 @@ html {
 .header-img h1 {
   z-index: 1;
   position: absolute;
-  top: 55%;
+  top: 45%;
   left: 0;
   right: 0;
   text-align: center;
   color: white;
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  letter-spacing: 0.4rem;
 }
 @media (max-width:900px) {
   .header-img h1 {
