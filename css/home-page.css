@@ -1,13 +1,13 @@
 .maintext {
   font-family: 'roboto', sans-serif;
   font-weight: normal;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   letter-spacing: 2px;
 }
 .maintext2 {
   font-family: 'roboto', sans-serif;
   font-weight: 500;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
 }
 .merriweather {
   font-family: 'Merriweather', serif;
@@ -142,6 +142,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html {
+  font-size: 62.5%;
+}
 .mainpara {
   display: flex;
   flex-flow: column wrap;
@@ -171,7 +174,7 @@ table {
 .mainpara h2 {
   font-family: 'roboto', sans-serif;
   font-weight: normal;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   letter-spacing: 2px;
   padding: 3% 0 3% 0;
   font-size: 2.8rem;
@@ -189,16 +192,16 @@ table {
   justify-content: center;
   width: 100%;
   padding: 2% 0 0 0;
-  margin: 0% 5%;
+  margin: 0% 0%;
 }
 .mainform .main {
- margin: 0% 15% 0% 5%;
+  margin: 0% 0% 0% 5%;
 }
 .mainform .main h3 {
   width: 120%;
   font-family: 'roboto', sans-serif;
   font-weight: 500;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   color: #4A4E53;
   padding: 0 0 5% 0;
   font-size: 2.8rem;
@@ -206,7 +209,7 @@ table {
 .mainform .main h5 {
   font-family: 'roboto', sans-serif;
   font-weight: normal;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   letter-spacing: 2px;
   font-weight: lighter;
   color: #4A4E53;
@@ -236,19 +239,18 @@ table {
 }
 .mainform .main2 {
   width: 100%;
-  margin-left: 1%;
 }
 .mainform .main2 h3 {
   font-family: 'roboto', sans-serif;
   font-weight: 500;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   width: 100%;
   font-size: 2.8rem;
 }
 .mainform .main2 h5 {
   font-family: 'roboto', sans-serif;
   font-weight: normal;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   letter-spacing: 2px;
   font-weight: lighter;
   padding: 5% 0 3% 0;
@@ -288,7 +290,7 @@ a {
   background-color: #ffffff;
   font-family: 'roboto', sans-serif;
   font-weight: normal;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   letter-spacing: 2px;
   font-size: 2.1rem;
   color: #E1F9F6;
@@ -306,7 +308,7 @@ a {
   background-color: #96D3CD;
   font-family: 'roboto', sans-serif;
   font-weight: normal;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   letter-spacing: 2px;
   font-size: 2.1rem;
   color: #000000;
@@ -427,7 +429,7 @@ a {
     background-color: #ffffff;
     font-family: 'roboto', sans-serif;
     font-weight: normal;
-    word-spacing: 0.2rem;
+    word-spacing: .2rem;
     letter-spacing: 2px;
     font-size: 2.1rem;
     color: #96D3CD;
