@@ -1,18 +1,18 @@
 .maintext {
   font-family: 'roboto', sans-serif;
   font-weight: normal;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   letter-spacing: 2px;
 }
 .maintext2 {
   font-family: 'roboto', sans-serif;
   font-weight: 500;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
 }
 .merriweather {
   font-family: 'Merriweather', serif;
   letter-spacing: 1.52px;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -171,7 +171,7 @@ table {
 .mainpara h2 {
   font-family: 'roboto', sans-serif;
   font-weight: normal;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   letter-spacing: 2px;
   padding: 3% 0 3% 0;
   font-size: 2.8rem;
@@ -195,23 +195,23 @@ table {
   margin-right: 25%;
 }
 .mainform .main h3 {
-  width: 150%;
+  width: 200%;
   font-family: 'roboto', sans-serif;
   font-weight: 500;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   color: #4A4E53;
   padding: 0 0 5% 0;
-  font-size: 2.1rem;
+  font-size: 2.8rem;
 }
 .mainform .main h5 {
   font-family: 'roboto', sans-serif;
   font-weight: normal;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   letter-spacing: 2px;
   font-weight: lighter;
   color: #4A4E53;
   padding: 5% 0 2% 0;
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 .mainform .main .maincosts {
   display: flex;
@@ -219,7 +219,7 @@ table {
   padding: 5% 0 0 0;
   font-family: 'Merriweather', serif;
   letter-spacing: 1.52px;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .mainform .main .maincosts .textbox {
   margin-bottom: 3%;
@@ -228,37 +228,41 @@ table {
   border-radius: 2px;
   border: 1px solid #979797;
   box-sizing: border-box;
-  height: 44px;
+  height: 4.4rem;
   width: 14.4rem;
+  font-size: 1.6rem;
   font-family: 'Merriweather', serif;
   letter-spacing: 1.52px;
-  font-size: 1.6rem;
+  font-size: 2rem;
+}
+.mainform .main2 {
+  width: 100%;
 }
 .mainform .main2 h3 {
   font-family: 'roboto', sans-serif;
   font-weight: 500;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   width: 50%;
   padding: 0 0 5% 0;
-  font-size: 2.1rem;
+  font-size: 2.8rem;
 }
 .mainform .main2 h5 {
   font-family: 'roboto', sans-serif;
   font-weight: normal;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   letter-spacing: 2px;
   font-weight: lighter;
   padding: 5% 0 2% 0;
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 .mainform .main2 .maincosts2 {
   display: flex;
   flex-flow: column;
   padding: 8% 0 0 0;
-  width: 50%;
+  width: 100%;
   font-family: 'Merriweather', serif;
   letter-spacing: 1.52px;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .mainform .main2 .maincosts2 .textbox {
   margin-bottom: 5%;
@@ -266,18 +270,18 @@ table {
   background-color: #fafafa;
   border-radius: 2px;
   border: 1px solid #979797;
-  height: 44px;
+  height: 4.4rem;
   width: 14.4rem;
   box-sizing: border-box;
   font-family: 'Merriweather', serif;
   letter-spacing: 1.52px;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 a {
   text-decoration: none;
 }
 .btn {
-  margin-left: 20%;
+  margin-left: 35%;
   box-sizing: border-box;
   height: 70px;
   width: 419px;
@@ -286,7 +290,7 @@ a {
   background-color: #ffffff;
   font-family: 'roboto', sans-serif;
   font-weight: normal;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   letter-spacing: 2px;
   font-size: 2.1rem;
   color: #E1F9F6;
@@ -304,7 +308,7 @@ a {
   background-color: #96D3CD;
   font-family: 'roboto', sans-serif;
   font-weight: normal;
-  word-spacing: 0.2rem;
+  word-spacing: .2rem;
   letter-spacing: 2px;
   font-size: 2.1rem;
   color: #000000;
@@ -422,7 +426,7 @@ a {
     background-color: #ffffff;
     font-family: 'roboto', sans-serif;
     font-weight: normal;
-    word-spacing: 0.2rem;
+    word-spacing: .2rem;
     letter-spacing: 2px;
     font-size: 1.3rem;
     color: #96D3CD;
