@@ -12,6 +12,9 @@ html{
   justify-content:space-between; 
   padding-top:2rem; 
   padding-bottom:3.7rem; 
+  @media @small-mobile{
+    margin-right:1%; 
+  }
 
   //logo
   .logo-container{
@@ -97,7 +100,7 @@ html{
     
   //hamburger icon
   .nav{
-    position:fixed; 
+    position:absolute; 
     top:4.5rem; 
     right:0; 
     z-index:2; 
@@ -193,7 +196,7 @@ html{
     //links
   
   .menu{
-    position: fixed; 
+    position: absolute; 
     top:0; 
     right:0; 
     width: 60%; 
@@ -226,6 +229,7 @@ html{
         max-height: 100vh; 
         opacity:0; 
         transition:opacity 0.4s ease; 
+        padding-top:43rem; 
           
         ul{
           text-align: start; 
@@ -240,13 +244,17 @@ html{
             padding: 1rem; 
             font-family:@nav-font; 
             font-weight:bold; 
-           
+            @media @small-mobile{
+              font-size:1.1rem; 
+            }
            
   
           &:hover{
             background:white;
             font-size: 1.6rem; 
-              
+            @media @small-mobile{
+              font-size:1.3rem; 
+            } 
             a{
               color:@nav-text;
             }
@@ -298,5 +306,10 @@ html{
           top:40%;
           font-size: 3.1rem;
       }
+      @media @small-mobile{
+        font-size: 2.2rem; 
+      }
   }
 }
+
+@import "footer"; 

@@ -1,3 +1,19 @@
+.maintext {
+  font-family: 'roboto', sans-serif;
+  font-weight: normal;
+  word-spacing: 0.2rem;
+  letter-spacing: 2px;
+}
+.maintext2 {
+  font-family: 'roboto', sans-serif;
+  font-weight: 500;
+  word-spacing: 0.2rem;
+}
+.merriweather {
+  font-family: 'Merriweather', serif;
+  letter-spacing: 1.52px;
+  font-size: 2rem;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -141,6 +157,11 @@ html {
   padding-top: 2rem;
   padding-bottom: 3.7rem;
 }
+@media (max-width:500px) {
+  .navbar {
+    margin-right: 1%;
+  }
+}
 .navbar .logo-container {
   width: 15%;
   height: 40%;
@@ -216,7 +237,7 @@ html {
     width: 100%;
   }
   .navbar .nav {
-    position: fixed;
+    position: absolute;
     top: 4.5rem;
     right: 0;
     z-index: 2;
@@ -296,7 +317,7 @@ html {
     top: 1rem;
   }
   .navbar .nav .menu {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     width: 60%;
@@ -324,6 +345,7 @@ html {
     max-height: 100vh;
     opacity: 0;
     transition: opacity 0.4s ease;
+    padding-top: 43rem;
   }
   .navbar .nav .menu .link-container .link ul {
     text-align: start;
@@ -354,6 +376,16 @@ html {
 @media (max-width:900px) and (max-width:800px) {
   .navbar .nav .menu {
     width: 50%;
+  }
+}
+@media (max-width:900px) and (max-width:500px) {
+  .navbar .nav .menu .link-container .link ul li {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width:900px) and (max-width:500px) {
+  .navbar .nav .menu .link-container .link ul li:hover {
+    font-size: 1.3rem;
   }
 }
 .header-img {
@@ -387,4 +419,32 @@ html {
     top: 40%;
     font-size: 3.1rem;
   }
+}
+@media (max-width:500px) {
+  .header-img h1 {
+    font-size: 2.2rem;
+  }
+}
+footer {
+  color: white;
+  background: black;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.social {
+  padding: 30px 0 20px 0;
+}
+.copyright {
+  padding: 10px;
+  font-size: 18px;
+}
+.nonprofit {
+  padding: 10px 0 50px 0;
+  font-size: 18px;
+  font-style: italic;
 }
