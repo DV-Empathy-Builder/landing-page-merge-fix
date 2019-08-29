@@ -348,13 +348,14 @@ a {
     margin-left: 5%;
   }
   .mary .mainpara .mainform .main h3 {
-    width: 80%;
+    width: 50%;
   }
   .mary .mainpara .mainform .main2 {
     width: 40%;
   }
   .mary .mainpara .mainform .main2 .maincosts2 {
     margin-left: 35%;
+    width: 50%;
   }
   .mary .mainpara .mainform .main2 h3,
   .mary .mainpara .mainform .main2 h5 {
