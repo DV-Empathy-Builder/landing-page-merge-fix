@@ -400,6 +400,9 @@ a {
   .mainform .main {
     margin-left: 200%;
   }
+  .mainform .main h3 {
+    width: 100%;
+  }
   .mainform .main2 {
     visibility: hidden;
     display: none;
