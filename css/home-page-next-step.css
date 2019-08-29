@@ -172,6 +172,7 @@ table {
     padding: 8% 0 0 0;
     font-family: 'Merriweather', serif;
     letter-spacing: 1.52px;
+    margin-left: 10%;
   }
   .main2 .maincosts2 .textbox {
     margin-bottom: 5%;
@@ -192,10 +193,10 @@ a {
   text-decoration: none;
 }
 .btn {
-  margin-left: 5%;
+  margin-left: 0%;
   box-sizing: border-box;
   height: 70px;
-  width: 300px;
+  width: 350px;
   border: 2px solid #E1F9F6;
   border-radius: 32px;
   background-color: #ffffff;
@@ -210,10 +211,10 @@ a {
   margin-bottom: 3%;
 }
 .btn:hover {
-  margin-left: 5%;
+  margin-left: 0%;
   box-sizing: border-box;
   height: 70px;
-  width: 300px;
+  width: 350px;
   border: 2px solid #96D3CD;
   border-radius: 32px;
   background-color: #96D3CD;
