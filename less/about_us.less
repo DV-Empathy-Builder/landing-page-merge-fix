@@ -24,3 +24,69 @@
 }
 
 */
+.container{
+    width:90%; 
+    margin:auto; 
+    font-size:1.6rem; 
+    .project-lead{
+        
+        margin: auto;
+        .member{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            width: 22%;
+            line-height: 1.5;
+            visibility: hidden;
+            margin: auto;
+            border-radius: 2%;
+            background:rgb(150, 211, 205);
+
+            .img{
+                max-width: 50%;
+                max-height: 53%;
+                visibility: visible;
+                border-radius: 50%;
+            }
+        }
+    }
+    .team-members{
+        display: flex;
+        flex-wrap: wrap;
+        
+        margin: auto;
+
+        .members{
+            font-size: 1.6rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            width: 22%;
+            line-height: 1.5;
+            visibility: hidden;
+            margin: 1rem;
+            border-radius: 2%;
+            .name{
+                font-weight:bold; 
+            }
+
+            .img.profile-photo{
+                max-width: 50%;
+                max-height: 53%;
+                visibility: visible;
+                border-radius: 50%;
+            }
+
+            .green{
+                background: rgb(150, 211, 205);
+            }
+
+            .pink{
+                background: rgb(230, 157, 155);
+            }
+        }
+    }
+
+}
