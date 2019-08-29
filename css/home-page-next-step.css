@@ -193,10 +193,10 @@ a {
   text-decoration: none;
 }
 .btn {
-  margin-left: 3%;
+  margin-left: 17%;
   box-sizing: border-box;
   height: 70px;
-  width: 350px;
+  width: 279px;
   border: 2px solid #E1F9F6;
   border-radius: 32px;
   background-color: #ffffff;
@@ -204,17 +204,17 @@ a {
   font-weight: normal;
   word-spacing: .2rem;
   letter-spacing: 2px;
-  font-size: 1.3rem;
+  font-size: 2.1rem;
   color: #E1F9F6;
   font-weight: bold;
   margin-top: 3%;
   margin-bottom: 3%;
 }
 .btn:hover {
-  margin-left: 3%;
+  margin-left: 17%;
   box-sizing: border-box;
   height: 70px;
-  width: 350px;
+  width: 279px;
   border: 2px solid #96D3CD;
   border-radius: 32px;
   background-color: #96D3CD;
@@ -222,7 +222,7 @@ a {
   font-weight: normal;
   word-spacing: .2rem;
   letter-spacing: 2px;
-  font-size: 1.3rem;
+  font-size: 2.1rem;
   color: #000000;
   font-weight: bold;
   margin-top: 3%;
