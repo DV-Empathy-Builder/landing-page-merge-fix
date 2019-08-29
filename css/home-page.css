@@ -195,7 +195,7 @@ table {
   margin-right: 25%;
 }
 .mainform .main h3 {
-  width: 200%;
+  width: 100%;
   font-family: 'roboto', sans-serif;
   font-weight: 500;
   word-spacing: .2rem;
@@ -222,14 +222,13 @@ table {
   font-size: 2rem;
 }
 .mainform .main .maincosts .textbox {
-  margin-bottom: 3%;
-  margin-top: 2%;
+  margin: 8% 0;
   background-color: #fafafa;
   border-radius: 2px;
   border: 1px solid #979797;
   box-sizing: border-box;
   height: 4.4rem;
-  width: 14.4rem;
+  width: 26.6rem;
   font-size: 1.6rem;
   font-family: 'Merriweather', serif;
   letter-spacing: 1.52px;
@@ -242,7 +241,7 @@ table {
   font-family: 'roboto', sans-serif;
   font-weight: 500;
   word-spacing: .2rem;
-  width: 50%;
+  width: 100%;
   padding: 0 0 5% 0;
   font-size: 2.8rem;
 }
@@ -265,13 +264,12 @@ table {
   font-size: 2rem;
 }
 .mainform .main2 .maincosts2 .textbox {
-  margin-bottom: 5%;
-  margin-top: 3%;
+  margin: 8% 0;
   background-color: #fafafa;
   border-radius: 2px;
   border: 1px solid #979797;
   height: 4.4rem;
-  width: 14.4rem;
+  width: 26.6rem;
   box-sizing: border-box;
   font-family: 'Merriweather', serif;
   letter-spacing: 1.52px;
