@@ -189,7 +189,7 @@ table {
   justify-content: center;
   width: 100%;
   padding: 2% 0 0 0;
-  margin-right: 20%;
+  margin-left: 5%;
 }
 .mainform .main {
   margin-right: 25%;
@@ -339,12 +339,13 @@ a {
     flex-wrap: nowrap;
     justify-content: center;
     width: 100%;
+    margin-right: 0%;
     padding: 2% 0 0 0;
     margin-left: 15%;
   }
   .mary .mainpara .mainform .main {
     width: 50%;
-    margin-right: 15%;
+    margin-left: 5%;
   }
   .mary .mainpara .mainform .main h3 {
     width: 80%;
