@@ -157,6 +157,11 @@ html {
   padding-top: 2rem;
   padding-bottom: 3.7rem;
 }
+@media (max-width:500px) {
+  .navbar {
+    margin-right: 1%;
+  }
+}
 .navbar .logo-container {
   width: 15%;
   height: 40%;
@@ -232,7 +237,7 @@ html {
     width: 100%;
   }
   .navbar .nav {
-    position: fixed;
+    position: absolute;
     top: 4.5rem;
     right: 0;
     z-index: 2;
@@ -312,7 +317,7 @@ html {
     top: 1rem;
   }
   .navbar .nav .menu {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     width: 60%;
@@ -340,6 +345,7 @@ html {
     max-height: 100vh;
     opacity: 0;
     transition: opacity 0.4s ease;
+    padding-top: 43rem;
   }
   .navbar .nav .menu .link-container .link ul {
     text-align: start;
@@ -372,6 +378,16 @@ html {
     width: 50%;
   }
 }
+@media (max-width:900px) and (max-width:500px) {
+  .navbar .nav .menu .link-container .link ul li {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width:900px) and (max-width:500px) {
+  .navbar .nav .menu .link-container .link ul li:hover {
+    font-size: 1.3rem;
+  }
+}
 .header-img {
   position: relative;
   min-width: 100%;
@@ -402,6 +418,11 @@ html {
   .header-img h1 {
     top: 40%;
     font-size: 3.1rem;
+  }
+}
+@media (max-width:500px) {
+  .header-img h1 {
+    font-size: 2.2rem;
   }
 }
 footer {
