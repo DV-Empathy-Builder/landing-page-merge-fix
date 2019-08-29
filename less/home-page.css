@@ -195,7 +195,7 @@ table {
   margin-right: 25%;
 }
 .mainform .main h3 {
-  width: 250%;
+  width: 120%;
   font-family: 'roboto', sans-serif;
   font-weight: 500;
   word-spacing: .2rem;
@@ -236,7 +236,7 @@ table {
 }
 .mainform .main2 {
   width: 100%;
-  margin-left: 10%;
+  margin-right: 5%;
 }
 .mainform .main2 h3 {
   font-family: 'roboto', sans-serif;
