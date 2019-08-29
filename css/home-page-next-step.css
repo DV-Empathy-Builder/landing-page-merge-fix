@@ -193,7 +193,7 @@ a {
   text-decoration: none;
 }
 .btn {
-  margin-left: 5%;
+  margin-left: 3%;
   box-sizing: border-box;
   height: 70px;
   width: 350px;
@@ -211,7 +211,7 @@ a {
   margin-bottom: 3%;
 }
 .btn:hover {
-  margin-left: 5%;
+  margin-left: 3%;
   box-sizing: border-box;
   height: 70px;
   width: 350px;
