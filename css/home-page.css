@@ -238,7 +238,7 @@ table {
   font-family: 'roboto', sans-serif;
   font-weight: 500;
   word-spacing: .2rem;
-  width: 100%;
+  width: 50%;
   padding: 0 0 5% 0;
   font-size: 2.1rem;
 }
@@ -255,6 +255,7 @@ table {
   display: flex;
   flex-flow: column;
   padding: 8% 0 0 0;
+  width: 50%;
   font-family: 'Merriweather', serif;
   letter-spacing: 1.52px;
   font-size: 1.6rem;
@@ -276,7 +277,7 @@ a {
   text-decoration: none;
 }
 .btn {
-  margin-left: 35%;
+  margin-left: 20%;
   box-sizing: border-box;
   height: 70px;
   width: 419px;
