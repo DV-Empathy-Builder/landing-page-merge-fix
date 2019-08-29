@@ -189,10 +189,10 @@ table {
   justify-content: center;
   width: 100%;
   padding: 2% 0 0 0;
-  margin-left: 5%;
+  margin: 0% 10%;
 }
 .mainform .main {
-  margin-right: 25%;
+ margin: 0% 30% 0% 5%;
 }
 .mainform .main h3 {
   width: 120%;
