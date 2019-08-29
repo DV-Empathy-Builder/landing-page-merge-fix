@@ -236,6 +236,7 @@ table {
 }
 .mainform .main2 {
   width: 100%;
+  margin-left: 10%;
 }
 .mainform .main2 h3 {
   font-family: 'roboto', sans-serif;
@@ -257,14 +258,14 @@ table {
 .mainform .main2 .maincosts2 {
   display: flex;
   flex-flow: column;
-  padding: 8% 0 0 0;
+  padding: 0% 0 0 0;
   width: 100%;
   font-family: 'Merriweather', serif;
   letter-spacing: 1.52px;
   font-size: 2rem;
 }
 .mainform .main2 .maincosts2 .textbox {
-  margin: 8% 0;
+  margin: 4% 0;
   background-color: #fafafa;
   border-radius: 2px;
   border: 1px solid #979797;
