@@ -3,11 +3,12 @@
   padding: 30px;
   font-size: 22px;
   font-weight: bold;
+  background: #96D3CD;
 }
 #productInfo h1 {
   border: 10px;
 }
 #productInfo p {
   font-size-adjust: 0.58;
-  padding: 30px;
+  padding: 20px;
 }
