@@ -1,0 +1,13 @@
+#productInfo {
+  text-align: center;
+  padding: 30px;
+  font-size: 22px;
+  font-weight: bold;
+}
+#productInfo h1 {
+  border: 10px;
+}
+#productInfo p {
+  font-size-adjust: 0.58;
+  padding: 30px;
+}
