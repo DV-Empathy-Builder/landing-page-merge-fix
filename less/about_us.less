@@ -1,92 +1,107 @@
-/*.container
 
-
-    .team-members
-        margin:auto; 
-        display:flex; 
-        flex-wrap:wrap; 
-        justify-content:space-evenly;
-     
-    .member
-        color:white; 
-        font-family:@nav-font;
-        width: 20%;
-        background:@nav-text; 
-        font-size:1.5rem;   
-
-        .img
-            border-rad
-        
-        
-    }
-
-    }
-}
-
-*/
-.container{
+.container {
+    margin: auto;
+    font-family: 'roboto', sans-serif; 
     width:90%; 
-    margin:auto; 
-    font-size:1.6rem; 
-    .project-lead{
-        
-        margin: auto;
-        .member{
+    padding:1%; 
+    h4{
+        font-size:2rem;
+      }
+
+      .project-lead{
+        margin:auto; 
+        font-size:1.5rem;
+
+        .rj{
             display: flex;
             flex-direction: column;
+           
             align-items: center;
             justify-content: space-around;
             width: 22%;
-            line-height: 1.5;
+            margin:auto; 
+            line-height: 1.5; 
             visibility: hidden;
-            margin: auto;
             border-radius: 2%;
-            background:rgb(150, 211, 205);
-
-            .img{
+          
+            img.profile-photo {
+                border-radius: 50%;
                 max-width: 50%;
                 max-height: 53%;
                 visibility: visible;
-                border-radius: 50%;
-            }
-        }
-    }
-    .team-members{
+              }
+              &:hover {
+                visibility: visible;
+                /*color:white;*/
+              }
+              p {
+                margin: auto;
+              }
+              i {
+                margin: 1%, 0;
+                padding-bottom: 10%;
+              }
+          }
+      }//project-lead
+
+      .team-members {
         display: flex;
         flex-wrap: wrap;
-        
         margin: auto;
+        font-size:1rem;
+      
+        
+          .green{
+            background: #96D3CD;
+          }
+          .pink{
+            background:#E69D9B;
+          }
 
-        .members{
-            font-size: 1.6rem;
+          .member {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-around;
             width: 22%;
-            line-height: 1.5;
+            margin: 0 1rem; 
+            line-height: 1.2; 
             visibility: hidden;
-            margin: 1rem;
             border-radius: 2%;
+            
             .name{
                 font-weight:bold; 
-            }
-
-            .img.profile-photo{
-                max-width: 50%;
-                max-height: 53%;
+              }
+              
+              img.profile-photo {
+                border-radius: 10px; 
+                width:100%;
                 visibility: visible;
-                border-radius: 50%;
-            }
-
-            .green{
-                background: rgb(150, 211, 205);
-            }
-
-            .pink{
-                background: rgb(230, 157, 155);
-            }
-        }
-    }
-
-}
+                filter: grayscale(100%); 
+              }
+              &:hover {
+                visibility: visible;
+                filter:none;
+              }
+              p {
+                margin: auto;
+              }
+              i {
+                margin: 1%, 0;
+                padding-bottom: 10%;
+              }
+              
+          }
+         
+         
+      }//team-members
+      
+      
+      
+      
+      
+      
+      
+      
+  }
+  

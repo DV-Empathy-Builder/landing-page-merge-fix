@@ -1,84 +1,84 @@
-/*.container
-
-
-    .team-members
-        margin:auto; 
-        display:flex; 
-        flex-wrap:wrap; 
-        justify-content:space-evenly;
-     
-    .member
-        color:white; 
-        font-family:@nav-font;
-        width: 20%;
-        background:@nav-text; 
-        font-size:1.5rem;   
-
-        .img
-            border-rad
-        
-        
-    }
-
-    }
-}
-
-*/
 .container {
-  width: 90%;
   margin: auto;
-  font-size: 1.6rem;
+  font-family: 'roboto', sans-serif;
+  width: 90%;
+  padding: 1%;
+}
+.container h4 {
+  font-size: 2rem;
 }
 .container .project-lead {
   margin: auto;
+  font-size: 1.5rem;
 }
-.container .project-lead .member {
+.container .project-lead .rj {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   width: 22%;
+  margin: auto;
   line-height: 1.5;
   visibility: hidden;
-  margin: auto;
   border-radius: 2%;
-  background: #96d3cd;
 }
-.container .project-lead .member .img {
+.container .project-lead .rj img.profile-photo {
+  border-radius: 50%;
   max-width: 50%;
   max-height: 53%;
   visibility: visible;
-  border-radius: 50%;
+}
+.container .project-lead .rj:hover {
+  visibility: visible;
+  /*color:white;*/
+}
+.container .project-lead .rj p {
+  margin: auto;
+}
+.container .project-lead .rj i {
+  margin: 1%, 0;
+  padding-bottom: 10%;
 }
 .container .team-members {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
+  font-size: 1rem;
 }
-.container .team-members .members {
-  font-size: 1.6rem;
+.container .team-members .green {
+  background: #96D3CD;
+}
+.container .team-members .pink {
+  background: #E69D9B;
+}
+.container .team-members .member {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   width: 22%;
-  line-height: 1.5;
+  margin: 0 1rem;
+  line-height: 1.2;
   visibility: hidden;
-  margin: 1rem;
   border-radius: 2%;
 }
-.container .team-members .members .name {
+.container .team-members .member .name {
   font-weight: bold;
 }
-.container .team-members .members .img.profile-photo {
-  max-width: 50%;
-  max-height: 53%;
+.container .team-members .member img.profile-photo {
+  border-radius: 10px;
+  width: 100%;
   visibility: visible;
-  border-radius: 50%;
+  filter: grayscale(100%);
 }
-.container .team-members .members .green {
-  background: #96d3cd;
+.container .team-members .member:hover {
+  visibility: visible;
+  filter: none;
 }
-.container .team-members .members .pink {
-  background: #e69d9b;
+.container .team-members .member p {
+  margin: auto;
+}
+.container .team-members .member i {
+  margin: 1%, 0;
+  padding-bottom: 10%;
 }
